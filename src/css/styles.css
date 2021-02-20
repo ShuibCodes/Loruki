@@ -530,13 +530,13 @@ fled direction row will make the main axis horizontal so justify content center 
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
-  margin-left: 200px;
+  margin-left: 300px;
 }
 
 .testimonials img {
   height: 240px;
   width: 240px;
-  margin: 30px;
+  margin: 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -560,11 +560,8 @@ fled direction row will make the main axis horizontal so justify content center 
 
 .testimonials .p-container p {
   text-align: center;
-  width: 60%;
+  width: 75%;
   font-size: 25px;
-  padding-bottom: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-style: italic;
 }
 
 /* footer */
@@ -695,7 +692,6 @@ fled direction row will make the main axis horizontal so justify content center 
     margin: auto;
   }
   .testimonials .group p {
- 
     width: 80%;
     padding: 30px 0;
     text-align: center;
