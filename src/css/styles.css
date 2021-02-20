@@ -526,17 +526,17 @@ fled direction row will make the main axis horizontal so justify content center 
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100%;
-  margin: 100px;
-  margin-right: 40px;
-  padding: 30px;
-  margin-top: -10px;
+  margin-left: 200px;
 }
 
 .testimonials img {
   height: 240px;
   width: 240px;
-  margin: 20px;
+  margin: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -560,8 +560,11 @@ fled direction row will make the main axis horizontal so justify content center 
 
 .testimonials .p-container p {
   text-align: center;
-  width: 75%;
+  width: 60%;
   font-size: 25px;
+  padding-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
 }
 
 /* footer */
@@ -680,7 +683,7 @@ fled direction row will make the main axis horizontal so justify content center 
     margin: auto;
   }
   .testimonials {
-    display: block;
+    margin-left: 100px;
   }
   .testimonials .group {
     display: block;
@@ -692,9 +695,16 @@ fled direction row will make the main axis horizontal so justify content center 
     margin: auto;
   }
   .testimonials .group p {
-    margin: auto;
-    width: 90%;
+ 
+    width: 80%;
     padding: 30px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .testimonials {
+    margin-left: 130px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
